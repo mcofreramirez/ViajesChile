@@ -1,8 +1,49 @@
-#fondoNegro{
+    /*Deja el fondo de toda la página a color negro*/
 
+    #fondoNegro{
 
+    background-color: black;
 
-background-color: black;
+    }
+    /*cambio el color a blanco */
+    .quienes-somos h2 {
 
-}
+    color: white;
+
+    }
+     /*cambio el color a blanco */
+    .quienes-somos article {
+
+    color: white;
+    
+    }
+    /*cambio el color del texto en las tarjetas y justifica el texto*/
+    .card p {
+
+        color: white;
+        text-align: justify;
+    }
+    /*cambio el color de las label del formulario*/
+    form .form-control {
+
+        color: white;
+        align-items: left;
+    }
+
+   
+   /*Ajusta texo a color blanco y lo justifica */
+    .quienes-somos article #textoAjuste {
+
+        color: white;
+        text-align: justify;
+        
+        }
+
+        
+        /*Ajusta tamaño imagen de las tarjetas*/
+        .card img {
+
+            width: 100%;
+            height: 150px;
+        }
 

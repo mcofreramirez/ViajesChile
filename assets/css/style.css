@@ -1,4 +1,11 @@
+/* Agregar Fuente sacado de google */
+    body {
 
+        font-family: "Raleway";
+    }
+    
+    
+    
     /*cambio el color a blanco */
     .quienes-somos h2 {
 
@@ -24,9 +31,20 @@
     
     }
 
+    /*Color Negro de fondoo*/
+
     #bloquesPrincipales {
 
         background-color: black;
+       
+    }
+
+   /*Cambiar fuente de titulos*/
+
+    #bloquesPrincipales h3{ 
+
+        font-family: "Raleway";
+        font-weight: 150px;
 
     }
     /*cambio el color del texto en las tarjetas y justifica el texto*/

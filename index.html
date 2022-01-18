@@ -15,27 +15,26 @@
 <body>
     <div class="fondo_color fixed-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
-          <div class="container">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top"
                 alt="logo viajes chile"> Viajes Chile </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
+                  <a class="nav-link" href="#bloquesPrincipales">Quienes Somos</a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contactos">Contacto</a>
+                  <a class="nav-link" href="#formulario">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -70,9 +69,9 @@
 
     <!-- Seccion con todo -->
       <section class="pt-3 pb-5" id="bloquesPrincipales">
-        <div class="container  ">
-          <!-- seccion que contiene los bloques principales-->
-          <section class="quienes-somos">
+        <div class="container-fluid  ">
+          <!-- seccion quienes somos-->
+          <section class="quienes-somos d-none d-sm-block">
             <h3 class="pt-5 mb-5 pb-3  border-bottom border-dark text-white text-uppercase text-center">¿Quiénes Somos?</h3>
             <div class="row px-5">
               <article class="col-12 col-md-4 text-left">
@@ -228,20 +227,24 @@
 
    <form >
     <div class="mb-12 ">
-      <label for="exampleDataList" class="form-label">Nombre</label>
+       <!-- Aplicacion de tooltip-->
+      <label for="exampleDataList" class="form-label" data-toggle="tooltip" data-placement="label" title="Escribir Nombre"">Nombre</label>
       <input type="text" class="form-control" id="formGroupExampleInput" placeholder=""">
       <div id="emailHelp" class="form-text text-left"></div>
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Asunto</label>
+       <!-- Aplicacion de tooltip-->
+      <label for="exampleInputPassword1" class="form-label" data-toggle="tooltip" data-placement="label" title="Escribir Asunto">Asunto</label>
       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+       <!-- Aplicacion de tooltip-->
+      <label for="exampleFormControlTextarea1" class="form-label"  data-toggle="tooltip" data-placement="label" title="Escribir Mensaje"">Mensaje</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
     </div>
     
-    <button type="submit" class="btn btn-primary bg-info bt-a bg-info ">Enviar</button>
+     <!-- Aplicacion de tooltip-->
+    <button type="submit" class="btn btn-primary bg-info bt-a bg-info " data-toggle="tooltip" data-placement="bottom" title="Enviar Formulario">Enviar</button>
   </form>
 
 
@@ -250,52 +253,35 @@
 
 </section>
 
+ </section>
 
-    </section>
+ <footer id="Footer" class="text-center text-white py-5 bg-info ms-auto">
 
-    
+    <div class="container">
 
-    <foter id="Footer" class="text-center text-white py-5 bg-info">
+    <div class="row">
+          
+    <div class=" col-12 col-sm-6">
 
-        <div class="container">
+   <h3 class="text-uppercase">viajes chile</h3>
 
-            <div class="row">
-                
-                <div class=" col-12 col-sm-6  bg-info">
+   </div>
 
-                    <h3 class="text-uppercase">Viajes Chile</h3>
+  <div class=" col-12 col-sm-6">
 
-                </div>
+  <a href=""><i class="fab fa-github fa-2x mx-2" style="color: white;"></i></a>
+  <a href=""><i class="fab fa-linkedin fa-2x mx-2" style="color: white;"></i></a>
+  <a href=""><i class="fab fa-twitter-square fa-2x mx-2" style="color: white;"></i></a>
+  <a href=""><i class="fab fa-instagram-square fa-2x mx-2" style="color: white;"></i></a>
 
-                <div class=" col-12 col-sm-6 bg-info">
-
-                    <a href="">
-                    <i class="fab fa-github fa-2x mx-2" style="color: white;"></i>
-                    </a>
-
-                    <a href="">
-                    <i class="fab fa-linkedin fa-2x mx-2" style="color: white;"></i>
-                    </a>
-
-                    <a href="">
-                    <i class="fab fa-twitter-square fa-2x mx-2" style="color: white;"></i>
-                    </a>
-
-                    <a href="">
-                    <i class="fab fa-instagram-square fa-2x mx-2" style="color: white;"></i>
-                    </a>
-
-                </div>
+ </div>
+ 
+</div>
+ </div>
 
 
-            </div>
-
-
-        </div>
-
-
-    </footer>
-
+</footer>
+   
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
@@ -305,3 +291,6 @@ crossorigin="anonymous"></script>
 <script src="./assets/js/script.js"></script>
 </body>
 </html>
+
+
+

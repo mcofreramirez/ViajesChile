@@ -5,6 +5,17 @@
     color: white;
 
     }
+
+    .navbar {
+
+       
+    
+        position: fixed;
+    
+        width: 100vw;
+        z-index: 1;
+    
+    }
      /*cambio el color a blanco */
     .bloquesPrincipales article {
 
@@ -45,8 +56,10 @@
         .card img {
 
             width: 100%;
-            height: 150px;
+             height: 150px;
         }
+
+
          /*Ajusta color label*/
         form .form-label{
             color: white; 
@@ -54,3 +67,4 @@
    
                 } 
         
+               
